@@ -4,7 +4,7 @@ import os
 
 class ElevenLabs:
     def __init__(
-        self, api_key: str, 
+        self, api_key, 
         voice_id: str = "21m00Tcm4TlvDq8ikWAM", 
         model_id: str = "eleven_multilingual_v2", 
         output_format: str = "mp3_44100_128", 
