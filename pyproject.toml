@@ -11,4 +11,5 @@ dependencies = [
     "python-dotenv>=1.1.1",
     "sounddevice>=0.5.2",
     "soundfile>=0.13.1",
+    "speechify-api>=1.2.0",
 ]
