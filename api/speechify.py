@@ -10,7 +10,7 @@ class SpeechifyTTS:
     def __init__(self):
         api_key = os.getenv("SPEECHIFY_API_KEY")
         self.client = Speechify(token=api_key)
-        self.voice_id = "jennifer"
+        self.voice_id = "christina"
         self.audio_dir = "audio/speechify/"
 
 
