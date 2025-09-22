@@ -1,4 +1,4 @@
-from speechify import Speechify as sp
+from speechify import Speechify
 from speechify.tts.types.get_speech_response import GetSpeechResponse
 from random import randint
 import base64
@@ -7,7 +7,7 @@ import os
 
 class SpeechifyTTS:
     def __init__(self, api_key):
-        self.client = sp(token=api_key)
+        self.client = Speechify(token=api_key)
         self.voice_id = "jennifer"
         self.audio_dir = "./audio/speechify"
 
