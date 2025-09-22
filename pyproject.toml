@@ -1,0 +1,14 @@
+[project]
+name = "tts-poc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "blingfire>=0.1.8",
+    "elevenlabs>=2.16.0",
+    "pydub>=0.25.1",
+    "python-dotenv>=1.1.1",
+    "sounddevice>=0.5.2",
+    "soundfile>=0.13.1",
+]
