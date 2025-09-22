@@ -1,13 +1,17 @@
-{
-    "1": "Sure, I found three options for wireless headphones. The first one has noise cancellation. The second is more budget friendly. Would you like me to compare them for you?",
-    "2": "That item is currently in stock. You can add it to your cart now. Do you want me to place the order for you?",
-    "3": "I see you're looking for running shoes. Based on your size, I recommend these brands. They are highly rated for comfort and durability.",
-    "4": "The delivery time for that product is usually two days. You can choose express shipping at checkout. Would you like me to show you faster delivery options?",
-    "5": "Yes, this jacket comes in three colors. Black, navy, and olive green. Which one do you prefer?",
-    "6": "I've applied a ten percent discount to your cart. The total is now forty-five dollars. Do you want to continue to checkout?",
-    "7": "That phone case is out of stock right now. It will be available again next week. Would you like me to notify you when it's back?",
-    "8": "You already have this item in your cart. Do you want to increase the quantity? Or would you like to look at similar products?",
-    "9": "The best-selling option has over a thousand reviews. Customers say it's very reliable. Do you want me to add that one to your cart?",
-    "10": "Your order has been confirmed. It will arrive by Friday. I'll send you tracking updates as it ships."
-}
-
+[
+    "I can help you track your order. To locate your product, I'll need your order number or email address. Please contact customer service for assistance. Our customer service team is available 24/7 to assist you.",
+    "Here are our featured beauty products available right now. We have skincare essentials, makeup collections, and beauty tools. Please contact customer service for assistance. Would you like to see specific products or browse by category?",
+    "Our return policy allows you to return products within 30 days of purchase. To return a product, it must be in original condition with all packaging. Please contact customer service for assistance. You can initiate a return through your account dashboard.",
+    "Yes, we currently have discounts on electronics available right now. Our electronics sale includes smartphones, laptops, and accessories. The discounts range from 10% to 40% off. You can initiate a return through your account dashboard.",
+    "I can help you track your order status and cancellation options. Order cancellation is possible if the product hasn't shipped yet. You can initiate a return through your account dashboard. Our customer service team is available 24/7 to assist you.",
+    "Here are our featured women's clothing options available right now. Our women's clothing collection features dresses, tops, pants, and accessories. We offer women's clothing in various sizes and styles. Would you like to see specific products or browse by category?",
+    "We offer multiple shipping options: standard, express, and overnight shipping. Shipping costs vary by location and product weight. Free shipping is available for orders over $50. Choose your preferred shipping option at checkout.",
+    "Here are our featured shoe deals available right now. Our shoe deals include sneakers, boots, and formal shoes with up to 50% off. The discounts range from 10% to 40% off. Choose your preferred shipping option at checkout.",
+    "You can contact customer service through multiple channels: live chat, email, or phone. Our customer service team is available 24/7 to assist you. For quick help, try our live chat feature. Please contact customer service for assistance.",
+    "Your shopping cart currently contains 3 items in total. In your cart, you have a wireless headset, a blue t-shirt, and a phone case. Your cart total is $89.97 before shipping. Would you like to see specific products or browse by category?",
+    "Here are our featured home decor items available right now. Our home decor collection includes wall art, decorative pillows, and candles. We offer home decor in various sizes and styles. Free shipping is available for orders over $50.",
+    "Product reviews are available on each product page below the description. Customer reviews help you make informed purchasing decisions. You can also filter reviews by rating or date. I can help you track your order and review status.",
+    "Yes, your payment information is completely secure with us. We use encrypted payment processing to protect your details. Our secure payment system complies with industry standards. Your cart total is $89.97 before shipping.",
+    "You can change your delivery address if your order hasn't shipped yet. Go to your account to update the delivery address information. If the order is already in transit, changes may not be possible. I can help you track your order and delivery status.",
+    "Here are our featured bestselling items available right now. The wireless earbuds, skincare set, and running shoes are our top products. These bestselling items have excellent customer reviews and ratings. We offer bestselling items in various sizes and styles."
+]

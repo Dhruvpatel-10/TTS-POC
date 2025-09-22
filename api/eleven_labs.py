@@ -1,16 +1,17 @@
 from elevenlabs.client import ElevenLabs as ElevenLabsClient
 from random import randint
 import os
+from api.name_gen import generate_strong_name
 
 class ElevenLabs:
     def __init__(
         self, 
-        api_key, 
         voice_id: str = "21m00Tcm4TlvDq8ikWAM", 
         model_id: str = "eleven_multilingual_v2", 
-        output_format: str = "mp3_44100_128", 
-        audio_dir: str = "./audio/elevenlabs"
+        output_format: str = "mp3_44100_96", 
+        audio_dir: str = "audio/elevenlabs/"
         ):
+        api_key = os.getenv("ELEVEN_LABS_API_KEY")
         self.client = ElevenLabsClient(api_key=api_key)
         self.voice_id = voice_id
         self.model_id = model_id
@@ -24,9 +25,14 @@ class ElevenLabs:
             model_id=self.model_id,
             output_format=self.output_format,
         )
-
+        
         os.makedirs(self.audio_dir, exist_ok=True)
-        with open(f'{self.audio_dir}/{randint(0, 10000)}.mp3', 'wb') as f:
+        audio_dir = generate_strong_name()
+        audio_dir = self.audio_dir + audio_dir + '.mp3'
+        
+        with open(audio_dir, 'wb') as f:
             for chunk in audio:
                 f.write(chunk)
+        
+        return audio_dir
 
