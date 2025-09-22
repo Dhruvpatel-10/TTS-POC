@@ -3,12 +3,18 @@ from random import randint
 import os
 
 class ElevenLabs:
-    def __init__(self, api_key):
+    def __init__(
+        self, api_key: str, 
+        voice_id: str = "21m00Tcm4TlvDq8ikWAM", 
+        model_id: str = "eleven_multilingual_v2", 
+        output_format: str = "mp3_44100_128", 
+        audio_dir: str = "./audio/elevenlabs"
+        ):
         self.client = ElevenLabsClient(api_key=api_key)
-        self.voice_id = "21m00Tcm4TlvDq8ikWAM"
-        self.model_id = "eleven_multilingual_v2"
-        self.output_format="mp3_44100_128"
-        self.audio_dir = "./audio"
+        self.voice_id = voice_id
+        self.model_id = model_id
+        self.output_format = output_format
+        self.audio_dir = audio_dir
 
     def text_to_speech(self, usrText: str):
         audio = self.client.text_to_speech.convert(
