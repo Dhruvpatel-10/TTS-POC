@@ -28,7 +28,7 @@ class SpeechifyTTS:
         if audio.audio_data:
             os.makedirs(self.audio_dir, exist_ok=True)
             file_path = generate_strong_name()
-            file_path = self.audio_dir + file_path + ".{file_format}"
+            file_path = self.audio_dir + file_path + f".{file_format}"
             decoded_bytes = base64.b64decode(audio.audio_data)
             with open(file_path, 'wb') as f:
                 f.write(decoded_bytes)
